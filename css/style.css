@@ -424,5 +424,21 @@ z-index: 9;
     transition: 0.5s;
     margin: 0px;
     padding: 0px;
+
+    .recard {
+      align-self: center;
+      display: flex;
+      line-height: 40px;
+      border-radius: 10px;
+      cursor: pointer;
+      aspect-ratio: 3 / 2;
+      width: 341px;
+      position: relative; 
+      transition: 0.5s;
+      margin: 0px;
+      padding: 0px;
+      overflow: hidden;
+      overflow-x: hidden;
+    }
   }
 }
