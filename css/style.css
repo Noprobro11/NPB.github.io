@@ -236,7 +236,7 @@ hr.rounded {
     border-radius: 10px;
     cursor: pointer;
     aspect-ratio: 3 / 2;
-    width: 35vw;
+    width: 35dvw;
     position: relative; 
     transition: 0.5s;
     margin: 0px;
@@ -387,4 +387,42 @@ hr.rounded {
 background-size: 200% 200%;
 animation: barberpole 100s linear infinite;
 z-index: 9;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+  }
+  .navbar ul li {
+    display: block;
+  }
+  #cards {
+    position: relative;
+    top: 350px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;  
+    width: 100%;
+    justify-content:center;
+    z-index: 1;
+  }
+  
+  #cards:hover > .card::after {
+    opacity: 1;
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    height: 140px;
+    flex-direction: column;
+    position: relative;
+    width: 380px;  
+    transition: 0.5s;
+    margin: 0px;
+    padding: 0px;
+  }
 }
