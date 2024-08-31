@@ -388,12 +388,3 @@ background-size: 200% 200%;
 animation: barberpole 100s linear infinite;
 z-index: 9;
 }
-
-@media only screen and (max-width: 768px) {
-  .navbar ul {
-    flex-direction: column;
-  }
-  .navbar ul li {
-    display: block;
-  }
-}
