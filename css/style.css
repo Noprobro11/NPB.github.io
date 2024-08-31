@@ -234,9 +234,9 @@ hr.rounded {
     line-height: 40px;
     border-radius: 10px;
     cursor: pointer;
-    width: 512px;
-    position: relative;
-    height: 380px;  
+    aspect-ratio: 3 / 2;
+    width: 100%;
+    position: relative; 
     transition: 0.5s;
     margin: 0px;
     padding: 0px;
@@ -255,7 +255,7 @@ hr.rounded {
 
  #BU{
   z-index: 3;
-  padding-top: 140px;
+  padding-top: 80%;
   opacity: 0;
   transition: 0.5s;
  }
@@ -272,7 +272,7 @@ hr.rounded {
 
   #BU:hover{
     z-index: 3;
-    padding-top: 140px;
+    padding-top: 180px;
     opacity: 100%;
     transition: 0.5s;
    }
