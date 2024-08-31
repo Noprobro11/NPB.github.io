@@ -396,10 +396,4 @@ z-index: 9;
   .navbar ul li {
     display: block;
   }
-  .cards {
-    flex-wrap: nowrap;
-  }
-  .card {
-    width: 100%;
-  }
 }
