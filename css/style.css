@@ -235,11 +235,12 @@ hr.rounded {
     border-radius: 10px;
     cursor: pointer;
     aspect-ratio: 3 / 2;
-    width: 100%;
+    width: 90%;
     position: relative; 
     transition: 0.5s;
     margin: 0px;
     padding: 0px;
+    margin-left: 1.5vw;
     overflow: hidden;
   }
 
@@ -272,7 +273,7 @@ hr.rounded {
 
   #BU:hover{
     z-index: 3;
-    padding-top: 180px;
+    padding-top: 30%;
     opacity: 100%;
     transition: 0.5s;
    }
