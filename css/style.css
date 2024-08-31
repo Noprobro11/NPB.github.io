@@ -391,7 +391,7 @@ z-index: 9;
 
 @media only screen and (max-width: 768px) {
   .navbar ul {
-    flex-direction: row;
+    flex-direction: column;
   }
   .navbar ul li {
     display: block;
@@ -400,6 +400,6 @@ z-index: 9;
     flex-wrap: nowrap;
   }
   .card {
-    width: 200%;
+    width: 100%;
   }
 }
