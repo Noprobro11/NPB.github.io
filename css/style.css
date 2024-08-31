@@ -230,6 +230,7 @@ hr.rounded {
   }
   
   .recard {
+    align-self: center;
     display: flex;
     line-height: 40px;
     border-radius: 10px;
