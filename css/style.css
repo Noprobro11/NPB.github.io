@@ -235,13 +235,13 @@ hr.rounded {
     border-radius: 10px;
     cursor: pointer;
     aspect-ratio: 3 / 2;
-    width: 90%;
+    width: 35vw;
     position: relative; 
     transition: 0.5s;
     margin: 0px;
     padding: 0px;
-    margin-left: 1.5vw;
     overflow: hidden;
+    overflow-x: hidden;
   }
 
   .recard img{
