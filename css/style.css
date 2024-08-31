@@ -8,14 +8,14 @@
 }
 
 main {
-  padding-bottom: 520px;
+  padding-bottom: 16.5em;
 }
 
 body {
   display: flex;
   flex-direction: column;
     font-family: 'Poppins', sans-serif;
-    font-size: 32px;
+    font-size: 2em;
     line-height: 0;
     background-color: rgb(20, 20, 20);
     overflow-x: hidden;
@@ -54,7 +54,7 @@ img{
 .header {
     position: fixed;
     width: 100vw;
-    height: 217px;
+    height: 6.4em;
     background-color: black;
     overflow: hidden;
     margin: 0 auto;
@@ -88,45 +88,45 @@ img{
 
 .navbar{
     position: fixed;
-    top: 215px;
+    top: 6.2em;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 40px;
+    height: 1.3em;
     background-color: #1094E7;
     z-index: 10;
 }
 
 .navbar ul{
-    margin-left: 40px;
+    margin-left: 1.3em;
     display: flex;
     font-weight: 600;
 }
 
 .navbar ul li a{
-    padding: 0px 40px;
+    padding: 0px 1.3em;
     transition: 0.5s;
 }
 
 .navbar ul li a:hover{
-    padding: 0px 60px;
+    padding: 0px 1.8em;
     transition: 0.5s;
     color: black;
 }
 
 #About-me{
   position: relative;
-  top: 300px;
+  top: 9.375em;
   color: white;
-  line-height: 30px;
+  line-height: 1em;
   display: block;
 }
 
 hr.rounded {
-  margin-right: 15px;
-  margin-top: 30px;
-  width: 150px;
+  margin-right: 0.46875em;
+  margin-top: 0.9375em;
+  width: 4.6875em;
   border-top: 8px solid #1094E7;
   border-color: #1094E7;
   border-radius: 5px;
@@ -146,6 +146,8 @@ hr.rounded {
 #videoWrapper {
   position: relative;
   top: 480px;
+  width: 18.75em;
+  height: 10.625em;
 }
 
 #cards {
