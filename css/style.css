@@ -12,6 +12,7 @@ main {
 }
 
 body {
+    width: 100%;
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
@@ -53,7 +54,7 @@ img{
 
 .header {
     position: fixed;
-    width: 100vw;
+    width: 100%;
     height: 6.4em;
     background-color: black;
     overflow: hidden;
@@ -153,7 +154,7 @@ hr.rounded {
 }
 
 .iframe-container{
-  padding-bottom: 56.25%;
+  padding-bottom: 10em;
   position: relative;
   width: 100%;
   padding-top: 0; 
@@ -393,27 +394,36 @@ z-index: 9;
   .navbar{
     position: fixed;
     top: 6.2em;
-    display: flex;
+    display: block;
+    line-height: 1.5em;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     width: 100%;
-    height: 2.3em;
+    height: fit-content;
     background-color: #1094E7;
     z-index: 10;
+    overflow: hidden;
 }
 
   .navbar ul {
-    display: flex;
-    flex-direction: row;
+    padding-right: 1.2em;
+    display: block;
   }
   .navbar ul li {
     display: block;
   }
 
+  #About-me{
+    position: relative;
+    top: 11.375em;
+    color: white;
+    line-height: 1em;
+    display: block;
+  }
+
   #cards {
     position: relative;
-    top: 350px;
+    top: 12em;
     color: white;
     display: flex;
     flex-wrap: wrap;
@@ -432,12 +442,48 @@ z-index: 9;
     border-radius: 10px;
     cursor: pointer;
     display: flex;
-    height: 140px;
+    height: 4.5em;
     flex-direction: column;
     position: relative;
-    width: 380px;  
+    width: 11.5em;  
     transition: 0.5s;
     margin: 0px;
     padding: 0px;
+  }
+  
+#videoWrapper {
+  position: relative;
+  top: 15em;
+  width: 100%;
+}
+
+  .iframe-container{
+    padding-bottom: 10em;
+    position: relative;
+    width: 100%;
+    padding-top: 0; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  hr.rounded {
+    margin-right: 0.16875em;
+    margin-top: 0.9375em;
+    width: 4.6875em;
+    border-top: 8px solid #1094E7;
+    border-color: #1094E7;
+    border-radius: 5px;
+  }
+  
+  .header img {
+    max-width: 7em;
+    transition: 0.25s all ease-in-out;
+    margin-left: 1.2em;
   }
 }
