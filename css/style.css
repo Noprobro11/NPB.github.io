@@ -390,12 +390,27 @@ z-index: 9;
 }
 
 @media only screen and (max-width: 768px) {
+  .navbar{
+    position: fixed;
+    top: 6.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2.3em;
+    background-color: #1094E7;
+    z-index: 10;
+}
+
   .navbar ul {
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
   }
   .navbar ul li {
     display: block;
   }
+
   #cards {
     position: relative;
     top: 350px;
