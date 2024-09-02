@@ -427,6 +427,16 @@ z-index: 9;
     display: block;
   }
 
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + main {
+    padding-top: 40px;
+  }
+
   #About-me{
     position: relative;
     top: 11.375em;
