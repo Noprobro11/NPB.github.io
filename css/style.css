@@ -406,7 +406,7 @@ z-index: 9;
 
 @media only screen and (max-width: 768px) {
   .navbar{
-    position: fixed;
+    position: relative;
     top: 6.2em;
     display: block;
     line-height: 1.5em;
